@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    font-size: 10px;
+}
+
+header {
+    font-size: 1.5rem;
+    height: 12vh;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 70%;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.appro {
+    text-transform: uppercase;
+}
+
+#one {
+    color: orangered;
+}
+
+#apply {
+    padding: 5px;
+    border: 1px solid;
+}
+
+main {
+    display: flex;
+    height: 88vh;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    background-color: orangered;
+}
+
+.worddiv {
+    width: 50vw;
+    position: relative;
+}
+
+.imgdiv {
+    width: 60vw;
+    position: relative;
+}
+.img {
+    width: 80%;
+    position: absolute;
+    bottom: 20%;
+}
+
+.wordcnt {
+    position: absolute;
+    bottom: 50%;
+    left: 7%;
+    color: #fff;
+}
+
+.mainhh {
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.noapp {
+    font-size: 1.2rem;
+}
+
+.mainbtn {
+    text-transform: uppercase;
+    color: #fff;
+    padding: .7rem;
+    background-color: orangered;
+    border:2px solid #fff;
+    font-weight: 1000;
+    margin-top: 10px;
+}
